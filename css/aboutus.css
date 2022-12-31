@@ -1,6 +1,6 @@
 /*Global*/
 body {
-    background: #F2F3F5;
+    background: #6a82b1;
 }
 
 h3,
@@ -86,9 +86,7 @@ margin: 0;
     width: 100%;
 }
 
-/*Media Queries*/
-
-/*Small devices (landscape phones, 576px and up)*/
+/*Smaller devices*/
 @media screen and (max-width: 767.98px) {
     .grid-container {
         grid-template-columns: auto;
