@@ -1,11 +1,10 @@
 @import "navbar.css";
 @import "aboutus.css";
-/* @import "blogs.css"; */
 @import "footer.css";
 @import "blogpost.css";
 
 .container {
-    display: flex;
+    display: grid;
     flex-flow: row wrap;
     justify-content: flex-start;
 }
@@ -17,7 +16,7 @@
 
 .destinations-container {
     margin: 5vh 20vw 0 20vw;
-    display: flex;
+    display: grid;
     flex-flow: row;
     justify-content: flex-start;
     text-align: center;
