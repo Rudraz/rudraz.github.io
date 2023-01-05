@@ -4,7 +4,6 @@
 @import "blogpost.css";
 
 .container {
-    
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
@@ -17,7 +16,7 @@
 
 .destinations-container {
     margin: 5vh 20vw 0 20vw;
-    display: grid;
+    display: flex;
     flex-flow: row;
     justify-content: flex-start;
     text-align: center;
