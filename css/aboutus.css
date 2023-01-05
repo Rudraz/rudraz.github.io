@@ -78,7 +78,7 @@ margin: 0;
     max-width: 21rem;
     border-radius: 1rem;
     margin: 0.125rem;
-
+}
 .summary2 {
     grid-column: 3 / span 3;
     grid-row: 1;
