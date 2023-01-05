@@ -38,18 +38,18 @@
 }
 
 /*Extra small devices*/
-/* @media screen and (min-width: 200px) and (max-width: 499px) {
+@media screen and (min-width: 200px) and (max-width: 499px) {
     .destinations-container {
         justify-content: center;
         flex-wrap: wrap;
     }
- } */
+ } 
 
 /*Small devices and Tablets*/
 
 @media screen and (max-width: 767.98px){
     .destinations-container {
-        /*margin: 5vh 10vw 0 10vw;*/
+        margin: 5vh 10vw 0 10vw;
         justify-content: center;
         flex-wrap: wrap;
     }
