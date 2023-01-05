@@ -134,8 +134,8 @@ margin: 0;
 @media screen and (min-width: 200px) and (max-width: 499px) {
         .grid-container {
             grid-template-columns: auto;
-            justify-content: center;
-            flex-wrap: wrap;
+            /*justify-content: center;
+            flex-wrap: wrap;*/
             grid-template-rows: auto;
         }
     
@@ -158,9 +158,9 @@ margin: 0;
     
         .grid-container2 {
             grid-template-columns: auto;
-            justify-content: center;
-            flex-wrap: wrap;
-            /*grid-template-rows: auto;*/
+            /*justify-content: center;
+            flex-wrap: wrap;*/
+            grid-template-rows: auto;
         }
     
         .profile2 {
