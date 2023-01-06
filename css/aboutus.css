@@ -10,6 +10,14 @@ margin: 0;
 }
 
 /*Grid Structure*/
+
+.aboutus-container{
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+
+
 .grid-container {
     display: grid;
     /*grid-template-columns: auto auto auto;*/
@@ -142,13 +150,15 @@ margin: 0;
 
 
 @media (max-width: 800px) {
-    .profile, .summary {
-      flex: 100%;
+    #profile, #summary {
+    /*flex 100%*/
+      flex-basis: 100%;
+      border-right: 0;
     }
   }
 
 @media (max-width: 800px) {
-    .profile2, .summary2{
+    #profile2, #summary2{
       flex: 100%;
     }
   }
