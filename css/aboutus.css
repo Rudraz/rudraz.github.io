@@ -12,7 +12,8 @@ margin: 0;
 /*Grid Structure*/
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    /*grid-template-columns: auto auto auto;*/
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 1rem;
     padding: 1rem;
     margin: 0 2rem 0 2rem;
@@ -57,7 +58,8 @@ margin: 0;
 
 .grid-container2 {
     display: grid;
-    grid-template-columns: auto auto auto;
+    /*grid-template-columns: auto auto auto;*/
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 1rem;
     padding: 1rem;
     margin: 0 2rem 0 2rem;
