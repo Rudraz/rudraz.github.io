@@ -160,14 +160,14 @@ margin: 0;
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 300px) {
     #profile, #summary {
     /*flex 100%*/
       flex-direction: column;
     }
   }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 300px) {
     #profile2, #summary2{
         flex-direction: column;
     }
