@@ -2,6 +2,7 @@
 @import "aboutus.css";
 @import "footer.css";
 @import "blogpost.css";
+@import "about_us.css";
 
 .container {
     display: flex;
