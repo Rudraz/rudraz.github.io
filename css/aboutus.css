@@ -159,19 +159,34 @@ margin: 0;
     width: 100%;
 }
 
-
-@media screen and (max-width: 300px) {
-    #profile, #summary {
-    /*flex 100%*/
-      flex-direction: column;
+@media screen and (min-width: 200px) and (max-width: 499px) {
+    .aboutus-container {
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
-  }
+ } 
 
+/*Small devices and Tablets*/
+
+@media screen and (min-width: 500px) and (max-width: 767.98px){
+    .aboutus-container {
+        margin: 5vh 10vw 0 10vw;
+        flex-direction: column;
+    }
+ }
+
+/* @media screen and (max-width: 300px) {
+    #profile, #summary {
+    flex-direction: column;
+    }
+}
 @media screen and (max-width: 300px) {
     #profile2, #summary2{
         flex-direction: column;
     }
-  }
+  } 
+ */
 
 
 
