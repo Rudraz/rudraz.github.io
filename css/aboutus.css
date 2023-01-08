@@ -14,8 +14,15 @@ margin: 0;
 .aboutus-container{
     display: flex;
     flex-wrap: wrap; 
+    
 }
 
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
 
 
 .grid-container {
@@ -36,10 +43,12 @@ margin: 0;
 
 /*Main Section*/
 .profile {
-    grid-column: 1 / span 2;
+    /* grid-column: 1 / span 2;
     grid-row: 1;
-    flex: 50%;
-
+    flex: 50%; */
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
 }
 
 .dp {
@@ -50,11 +59,13 @@ margin: 0;
 }
 
 .summary {
-    grid-column: 3 / span 3;
+    /* grid-column: 3 / span 3;
     grid-row: 1;
     padding: 1rem;
-    flex: 50%;
-
+    flex: 50%; */
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
 }
 
 .summary-text {
@@ -149,17 +160,16 @@ margin: 0;
 }
 
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
     #profile, #summary {
     /*flex 100%*/
-      flex-basis: 100%;
-      border-right: 0;
+      flex-direction: column;
     }
   }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
     #profile2, #summary2{
-      flex: 100%;
+        flex-direction: column;
     }
   }
 
