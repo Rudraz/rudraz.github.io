@@ -19,7 +19,7 @@ margin: 0;
 
 /* Main column */
 .main {
-  flex: 70%;
+  flex: 100%;
   background-color: white;
   padding: 20px;
 }
