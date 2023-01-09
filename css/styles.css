@@ -55,7 +55,7 @@
 
 /*Small devices and Tablets*/
 
-@media screen and (min-width: 500px) and (max-width: 767.98px){
+@media screen and (min-width: 500px) and (max-width: 768px){
     .destinations-container {
         margin: 5vh 10vw 0 10vw;
     }
