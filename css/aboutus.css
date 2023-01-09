@@ -46,7 +46,7 @@ margin: 0;
     /* grid-column: 1 / span 2;
     grid-row: 1;
     flex: 50%; */
-    flex: 30%;
+    flex: 100%;
     background-color: #f1f1f1;
     padding: 20px;
 }
@@ -174,10 +174,6 @@ margin: 0;
     }
   }
 
-
-
-=======
->>>>>>> parent of f250ee9 (new changes)
 /*Extra small devices*/
 @media screen and (min-width: 200px) and (max-width: 499px) {
         .grid-container {
