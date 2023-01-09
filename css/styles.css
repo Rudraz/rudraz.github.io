@@ -39,7 +39,6 @@
 }
 
 /*Extra small devices*/
-<<<<<<< HEAD
 
 /* @media (max-width: 800px) {
     .container {
@@ -47,8 +46,6 @@
     }
   } */
 
-=======
->>>>>>> parent of f250ee9 (new changes)
 @media screen and (min-width: 200px) and (max-width: 499px) {
     .destinations-container {
         justify-content: center;
