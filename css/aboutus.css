@@ -130,7 +130,7 @@ margin: 0;
 /*Footer*/
 .aboutus-footer {
     text-align: center;
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
