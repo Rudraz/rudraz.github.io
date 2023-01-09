@@ -99,7 +99,7 @@ margin: 0;
     grid-row: 1;
     flex: 50%; */
     flex: 100%;
-    background-color: #f1f1f1;
+    background: purple;
     padding: 20px;
 }
 
@@ -115,7 +115,7 @@ margin: 0;
     padding: 1rem;
     flex: 50%; */
     flex: 70%;
-    background-color: white;
+    background: purple;
     padding: 20px;
 
 }
