@@ -6,7 +6,7 @@
 .container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
+    justify-content: space-around;
 }
 
 .cover {
@@ -18,7 +18,8 @@
     margin: 5vh 20vw 0 20vw;
     display: flex;
     flex-flow: row;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
+    justify-content: space-around;
     text-align: center;
     
 }
