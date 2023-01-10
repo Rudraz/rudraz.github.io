@@ -7,7 +7,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    width: 100%;
+    /* justify-content: flex-start; */
 }
 
 .cover {
@@ -19,8 +19,8 @@
     margin: 5vh 20vw 0 20vw;
     display: flex;
     flex-flow: row;
-    /* justify-content: flex-start; */
     justify-content: space-around;
+    /* justify-content: flex-start; */
     text-align: center;
     
 }
