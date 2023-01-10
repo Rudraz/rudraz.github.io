@@ -174,8 +174,8 @@ margin: 0;
   } */
 
 /*Extra small devices*/
-@media screen and (min-width: 200px) and (max-width: 340px) {
-        .grid-container, .container {
+@media screen and (min-width: 200px) and (max-width: 499px) {
+        .grid-container {
             grid-template-columns: auto;
             /*justify-content: center;
             flex-wrap: wrap;*/
@@ -212,8 +212,8 @@ margin: 0;
     
 
 /*Small / medium devices */
-@media screen and (min-width: 341px) and (max-width: 768px){
-    .grid-container, .container{
+@media screen and (min-width: 500px) and (max-width: 768px){
+    .grid-container {
         margin: 5vh 10vw 0 10vw;
         grid-template-columns: auto;
         justify-content: center;
