@@ -146,6 +146,8 @@ margin: 0;
     color: white;
     padding: 3rem;
     height: 30vh;
+    justify-content: space-around;
+
 }
 
 .footer-container {
@@ -179,7 +181,7 @@ margin: 0;
   } */
 
 /*Extra small devices*/
-@media screen and (min-width: 200px) and (max-width: 499px) {
+@media screen and (min-width: 200) and (max-width: 340px) {
         .grid-container {
             grid-template-columns: auto;
             /*justify-content: center;
@@ -217,7 +219,7 @@ margin: 0;
     
 
 /*Small / medium devices */
-@media screen and (min-width: 500px) and (max-width: 768px){
+@media screen and (min-width: 341px) and (max-width: 768px){
     .grid-container {
         margin: 5vh 10vw 0 10vw;
         grid-template-columns: auto;
