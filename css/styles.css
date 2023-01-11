@@ -6,8 +6,8 @@
 .container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: stretch;
-    /* justify-content: flex-start; */
+    align-items: center;
+    justify-content: flex-start;
     /* width: 100%; */
 }
 
@@ -16,21 +16,20 @@
     max-height: 75vh;
 }
 
-.destinations-container {
+/* .destinations-container {
     margin: 5vh 20vw 0 20vw;
     display: flex;
     flex-flow: row;
     justify-content: space-around;
-    /* justify-content: flex-start; */
+    /* justify-content: flex-start;
     text-align: center;
     
 }
-
 .destinations {
     width: 25vw;
     height: 25vw;
     border-radius: 50%;
-}
+} */
 
 .caption {
     text-align: center;
@@ -49,7 +48,7 @@
     }
   } */
 
-@media screen and (min-width: 200px) and (max-width: 499px) {
+@media screen and (min-width: 200px) and (max-width: 340px) {
     .grid-container, .container {
         justify-content: center;
         flex-wrap: wrap;
@@ -57,16 +56,8 @@
  } 
 
 /*Small devices and Tablets*/
-
-@media screen and (min-width: 500px) and (max-width: 768px){
+@media screen and (min-width: 341px) and (max-width: 768px){
     .grid-container, .container  {
         margin: 5vh 10vw 0 10vw;
     }
  }
-
-/*@media screen and (min-width: 500px) and (max-width: 767.98px) {
-    .destinations-container {
-        margin: 5vh 10vw 0 10vw;
-    }
- }
-*/
