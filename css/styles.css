@@ -53,6 +53,13 @@
         justify-content: center;
         flex-wrap: wrap;
     }
+
+    .navbar{
+        flex-direction: column;
+    }
+    .footer-dark{
+            flex-direction: column;
+    }
  } 
 
 /*Small devices and Tablets*/
@@ -60,4 +67,5 @@
     .grid-container, .container  {
         margin: 5vh 10vw 0 10vw;
     }
+    
  }
