@@ -60,8 +60,8 @@ body {
 }  */
 
 /*Small devices and Tablets*/
-
-@media screen and (min-width: 200px) and (max-width: 340px)  {
+/* 
+@media screen and (min-width: 200px) and (max-width: 330px)  {
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -96,7 +96,7 @@ body {
   .logo:hover, .nav-links:hover {
     color: rgba(255, 255, 255, 1);
   }
-}
+} */
 
 /* @media screen and (min-width: 341px) and (max-width: 768px){
   .navbar {
